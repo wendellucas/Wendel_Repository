@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Books</title>    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link type="text/css" rel="stylesheet" href="css-menu/demo.css" />
+    <link type="text/css" rel="stylesheet" href="javascript-menu/css/jquery.mmenu.all.css" />
+    <link rel="stylesheet" type="text/css" href="css-menu/jquery.dialogbox.css">
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/style.css" rel="stylesheet">
+     <script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/scripts.js"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="dist/css/swiper.min.css">
+
+
+     <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
+    <script type="text/javascript" src="javascript-menu/js/jquery.mmenu.min.all.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('nav#menu').mmenu({
+                extensions: ['effect-slide', 'pageshadow'],
+                header: true,
+                searchfield: true,
+                counters: true
+            });
+        });
+    </script>
+    <style>
+        html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="form-group"
+        <div id="page">
+            <div class="header">
+                <a href="#menu"></a>
+            </div>
+
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>                
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <div id="books" class="row">
+                <div id="01" class="col-sm-3 col-xs-4 col-md-2">
+                    <div class="thumbnail">
+                        <img src="./images/Book_01/img0.jpg" id="modal-1" href="#modal-container-33613" role="button" data-toggle="modal">
+                       
+                    </div>
+                </div>
+                <div id="02" class="col-sm-3 col-xs-4 col-md-2">
+                    <div class="thumbnail">
+                        <img src="./images/Book_02/img0.jpg" id="modal-2" href="#modal-container-33613" role="button" data-toggle="modal">
+                      
+                    </div>
+                </div>
+                <div id="03" class="col-sm-3 col-xs-4 col-md-2">
+                    <div class="thumbnail">
+                        <img src="./images/Book_03/img0.jpg" id="modal-33613" href="#modal-container-33613" role="button" data-toggle="modal">
+                      
+                    </div>
+                </div>
+                <div id="04" class="col-sm-3 col-xs-4 col-md-2">
+                    <div class="thumbnail">
+                        <img src="./images/Book_04/img0.jpg" id="modal-33613" href="#modal-container-33613" role="button" data-toggle="modal">
+                       
+                    </div>
+                </div>
+               
+                </div>
+        </div>
+        </div>
+    
+   
+        </div>
+  
+    
+        <div class="modal fade" id="modal-container-33613" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false">
+            <div class="modal-dialog" style="width:98%; height:98%;">
+                <div class=" modal-content" id="modalcontent">
+                
+<!--
+                    <div>
+                        <img src="img/sample1.jpg" style="width:100%; height:100%; position:relative;" />
+                     </div>
+-->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="false" style="position:absolute; right:5px; top:5px; z-index:3000;">X</button>
+                    <!--<div class='rectangle-box-blue'>
+                        <div class='rectangle-box-inside'>
+                            <div class='rectangle-content'><div><span>hdfjshfsjdhj</span></div></div>
+                        </div>
+                    </div>-->
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="modal fade" id="modal-container-33614" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false">
+            <div class="modal-dialog" style="width:98%; height:98%;">
+                <div class=" modal-content">
+
+<!--
+                        <div>
+                            <img src="img/sample1.jpg" style="width:100%; height:100%; position:relative;" />
+                        </div>
+-->
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="false" style="position:absolute; right:5px; top:5px; z-index:3000;">X</button>
+                        <!--<div class='rectangle-box-green'>
+                            <div class='rectangle-box-inside'>
+                                <div class='rectangle-content'><div><span>hdfjshfsjdhj</span></div></div>
+                            </div>
+                        </div>-->
+
+
+                </div>
+
+            </div>
+        </div>
+    <!-- Swiper JS -->
+    <script src="dist/js/swiper.min.js"></script>
+    <script src="js/lib/require.js"></script>
+        <script>
+		
+		
+		
+            //$('.thumbnail').click(function (){
+                //Load common code that includes config, then load the app
+                //logic for this page. Do the require calls here instead of
+                //a separate file so after a build there are only 2 HTTP
+                //requests instead of three.
+                require(['./js/common'], function (common) {
+                    //js/common sets the baseUrl to be js/ so
+                    //can just ask for 'app/main1' here instead
+                    //of 'js/app/main1'
+                    require(['app/main1']);
+                });
+				
+				
+				
+            //});
+        </script>
+
+
+</body>
+</html>

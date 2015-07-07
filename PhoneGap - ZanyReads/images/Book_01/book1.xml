@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BOOK>
+	<TITLE>book1</TITLE>
+	<PAGES>
+	   <TEXT>Pip in a canoe.</TEXT>
+	   <TEXT>Pip sat. Pip sat in it.</TEXT>
+	   <TEXT>Sam in a canoe.</TEXT>
+	   <TEXT>Sam sat. Sam sat in it.</TEXT>
+	   <TEXT>Pat in a canoe.</TEXT>
+	   <TEXT>Pat sat. Pat sat in it.</TEXT>
+	   <TEXT>Pip sat. Pat sat. Sam sat.</TEXT>
+	   <TEXT>Tip it Sam. Tip it.</TEXT>
+	   <TEXT>Tip it Pat. Tip it.</TEXT>
+	   <TEXT>Sam! Pat!</TEXT>
+	</PAGES>
+</BOOK>
